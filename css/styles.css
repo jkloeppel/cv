@@ -40,6 +40,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #40514E;
+}
+
 /****************CLASS SELECTORS******************/
 .top-container {
   background-image: url(../images/valley.jpg);
@@ -129,6 +133,16 @@ a {
   background-image: -o-linear-gradient(top, #608783, #1e435e);
   background-image: linear-gradient(to bottom, #608783, #1e435e);
   text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-link {
+  font-size: 1.25rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding-top: 20px;
 }
 
 /****************COLORS******************/
